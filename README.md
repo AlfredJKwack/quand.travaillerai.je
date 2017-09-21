@@ -1,10 +1,13 @@
 # quand.travaillerai.je
-An experiment in sarcasm.
+Une experience en sarcasme.
 
-## Questions answered
+Si vous désirez participer au "quand" soumettez un PR.
+
+## Questions avec réponses
+- [travaillerai.je](http://travaillerai.je)
 - [quand.travaillerai.je](http://quand.travaillerai.je)
 
-## Open Questions
+## Questions non existantes
 - pourquoi.travaillerai.je
 - comment.travaillerai.je
 - avec.qui.travaillerai.je
