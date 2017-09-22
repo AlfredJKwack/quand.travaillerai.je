@@ -184,6 +184,63 @@
           -28px 56px 1px #e4e3e2;
       }
 
+  .container#gheret {
+
+    /* Gray Ghost - https://codepen.io/grayghostvisuals/pen/saJyf */
+
+    font-family: Arial, sans-serif;
+    background: #231F20;
+    color: #FFFFFF;
+    padding: 5em 0;
+    height: 100vh;      
+  }
+
+
+    .container#gheret div {
+      height: 200px;
+      width: 700px;
+      margin: 2em auto;
+      position: relative;
+    }
+
+    .container#gheret .water {
+      overflow: hidden;
+      height: 200px;
+      width: 700px;
+      position: relative;
+    }
+
+    .container#gheret .water-txt {
+      position: absolute;
+      top: -100px;
+      font-size: 12em;
+      line-height: 1;
+    }
+    .container#gheret .water-txt::after {
+      content: "";
+      display: block;
+      height: 80px;
+      width: 700px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #231F20;
+    }
+
+    .container#gheret .sub-text {
+      position: absolute;
+      top: 210px;
+      right: 113px;
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+      font-size: .875em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+
 
   </style>
 
@@ -202,14 +259,21 @@
       Une personne ne se rapprochera <span>jamais</span> plus de  <span>la perfection</span> que quand elle r&eacute;pond a une offre d'emploi.
     </div>
     <p>- Stanley J. Randall</p>
-    </section>
   </section>
 
   <section class="container hide" id="anonymous">
     <div>
       Quant tu aura trouv&eacute; un emploi.
     </div>
-    </section>
+  </section>
+
+  <section class="container hide" id="gheret">
+    <div>
+      <div class="water">
+        <h1 class="water-txt">demain</h1>
+      </div>
+      <p class="sub-text">aujourd'hui<br>j'ai piscine!</p>
+    </div>
   </section>
 
   <script type="text/javascript" >
